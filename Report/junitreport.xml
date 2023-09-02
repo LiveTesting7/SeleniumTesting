@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="16.022511">
+    <testcase classname="To validate Mythra login functionality" name="To validate positive combination of Mynthra login functionality" time="16.022511">
+        <system-out><![CDATA[Given To open browser and maximize window...................................passed
+When To launch the url......................................................passed
+And To enter registered PhoneNumber in PhoneNumber field....................passed
+And To enter password in Password field.....................................passed
+And To click login button...................................................passed
+Then To close the browser...................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

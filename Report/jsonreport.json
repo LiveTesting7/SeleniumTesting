@@ -1,0 +1,152 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "To validate positive combination of Mynthra login functionality",
+        "description": "",
+        "id": "to-validate-mythra-login-functionality;to-validate-positive-combination-of-mynthra-login-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2700510300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To open browser and maximize window",
+            "match": {
+              "location": "Myt_challenges.toOpenBrowserAndMaximizeWindow()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7425905000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To launch the url",
+            "match": {
+              "location": "Myt_challenges.toLaunchTheUrl()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5334804600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To enter registered PhoneNumber in PhoneNumber field",
+            "match": {
+              "location": "Myt_challenges.toEnterRegisteredPhoneNumberInPhoneNumberField(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Number1",
+                  "987654321"
+                ]
+              },
+              {
+                "cells": [
+                  "Number2",
+                  "3457895678"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 139552300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "To enter password in Password field",
+            "match": {
+              "location": "Myt_challenges.toEnterPasswordInPasswordField(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Password1",
+                  "Password2",
+                  "Password3"
+                ]
+              },
+              {
+                "cells": [
+                  "12345",
+                  "1234567",
+                  "12345678"
+                ]
+              },
+              {
+                "cells": [
+                  "ABCD",
+                  "ABCDE",
+                  "ABCDEF"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 140695300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "To click login button",
+            "match": {
+              "location": "Myt_challenges.toClickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 276645900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "To close the browser",
+            "match": {
+              "location": "Myt_challenges.toCloseTheBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FeatureOne"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "To validate Mythra login functionality",
+    "description": "",
+    "id": "to-validate-mythra-login-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Myt.feature",
+    "tags": [
+      {
+        "name": "@FeatureOne",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
